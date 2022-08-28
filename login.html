@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            border: 1px solid hotpink;
+        }
+
+        form input {
+            margin: 10px;
+            padding: 10px;
+            font-size: x-large;
+
+
+        }
+
+        form input[type="submit"] {
+            background-color: bisque;
+            border: none;
+        }
+
+        .login-section {
+            display: flex;
+
+            justify-content: center;
+        }
+
+        nav {
+            background-color: rgb(137, 245, 209);
+            height: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        nav a {
+            background-color: rgb(170, 61, 61);
+            padding: 10px;
+            margin: 10px;
+            text-decoration: none;
+            color: blanchedalmond;
+            display: flex;
+            align-items: center;
+        }
+        .left-nav{
+            display: flex;
+        }
+        .right-nav{
+display: flex;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span class="left-nav">
+                <a href="https://github.com/MushfiqMuhtadin/CSS">Home</a>
+
+                <a href="https://github.com/MushfiqMuhtadin/CSS">Login</a>
+
+                <a href="https://github.com/MushfiqMuhtadin/CSS">Signup</a>
+            </span>
+
+            <span class="right-nav">
+                <a href="https://github.com/MushfiqMuhtadin/CSS">Logout</a>
+            </span>
+
+        </nav>
+    </header>
+
+    <section class="login-section">
+
+        <form action="">
+
+            <h1>Please Login Here</h1>
+
+            <input type="text" id="email" placeholder="email">
+
+            <input type="password" id="password" placeholder="password">
+
+            <input type="submit" id="submit" placeholder="submit">
+        </form>
+
+    </section>
+
+</body>
+
+</html>
